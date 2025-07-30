@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --breakpoint-3xl: 120rem;
+  --color-primaryColor: #E54248;
+  --color-secondaryColor: #1fdd1f;
+  --color-accentColor: #404040;
+
+}
