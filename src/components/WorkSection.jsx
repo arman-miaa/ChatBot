@@ -1,62 +1,130 @@
+import { BsPatchCheck } from "react-icons/bs";
+import workImg1 from "../assets/workImg1.png"
+import workImg2 from "../assets/workImg2.png"
+import workImg3 from "../assets/workImg3.png"
+
 const WorkSection = () => {
   return (
-    <div id="howto" className="py-16  text-white">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold mb-4">How it works</h2>
-        <p className="text-lg max-w-3xl mx-auto mb-12">
-          Make smarter decisions with powerful analytics and easy tools —
-          designed to grow your reach and revenue, whether you’re a fighter,
-          promoter, or a fan.
-        </p>
+    <div id="howto" className="py-16 px-4 ">
+      <div className="max-w-6xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-medium text-gray-900 mb-4">
+            How it works
+          </h2>
+          <p className="text-[#333333] max-w-2xl mx-auto text-lg">
+            Make smarter decisions with powerful analytics and easy tools —
+            designed to grow your reach and revenue, whether you're a fighter,
+            promoter, or a fan.
+          </p>
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1 */}
-          <div className="bg-gray-900 p-8 rounded-lg shadow-lg flex flex-col items-start text-left">
-            <span className="text-red-500 text-5xl font-bold mb-4">01</span>
-            <h3 className="text-2xl font-semibold mb-4">
+        {/* Step 1 - Install the bot */}
+        <div className="flex flex-col lg:flex-row items-center gap-36 mb-20">
+          <div className="flex-1">
+            <h3 className="text-2xl md:text-5xl font-semibold text-gray-900 mb-4">
               Install the bot on your website
             </h3>
-            <p className="text-gray-400 mb-6">
-              Stay updated on your favorite fighters. Track campaigns in
-              real-time and make smarter purchase decisions.
+            <p className="text-gray-600 mb-6 text-2xl">
+              Get started in minutes—no technical skills needed. Our chatbot can
+              be added to your site with just a few clicks. Fast, simple, and
+              hassle-free setup.
             </p>
-            <ul className="list-disc list-inside text-gray-400 space-y-2">
-              <li>Support your favourite fighters directly.</li>
-              <li>Buy fight night tickets with ease.</li>
-              <li>Unlock exclusive early ticket offers.</li>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                No coding required
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Works with any website
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Set up in under 5 minutes
+              </li>
             </ul>
           </div>
+          <div className="flex-1">
+            <div className="bg-white rounded-lg  p-6">
+              <img
+                src={workImg1}
+                alt="Chatbot installation interface"
+                className="w-full h-auto rounded-lg "
+              />
+            </div>
+          </div>
+        </div>
 
-          {/* Card 2 */}
-          <div className="bg-gray-900 p-8 rounded-lg shadow-lg flex flex-col items-start text-left">
-            <span className="text-red-500 text-5xl font-bold mb-4">02</span>
-            <h3 className="text-2xl font-semibold mb-4">Choose your plan</h3>
-            <p className="text-gray-400 mb-6">
-              Reach more fans and boost your ticket sales with real-time
-              insights, smart tools, and fighter collaborations.
+        {/* Step 2 - Choose your plan */}
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-12 mb-20">
+          <div className="flex-1">
+            <h3 className="text-2xl md:text-5xl font-semibold text-gray-900 mb-4">
+              Choose your plan
+            </h3>
+            <p className="text-gray-600 mb-6 text-2xl">
+              Pick a plan that fits your business goals. Whether you're just
+              starting or scaling up, we've got flexible options for every need.
             </p>
-            <ul className="list-disc list-inside text-gray-400 space-y-2">
-              <li>Track your ticket sales live in real-time.</li>
-              <li>Collaborate with fighters instantly.</li>
-              <li>Promote events effortlessly online.</li>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Free and premium plans available
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Cancel or upgrade anytime
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Transparent, no hidden fees
+              </li>
             </ul>
           </div>
+          <div className="flex-1">
+            <div className="bg-gradient-to-br from-coral-400 to-coral-500 rounded-lg p-8 text-white">
+              <img
+                src={workImg2}
+                alt="Pricing plans interface"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+        </div>
 
-          {/* Card 3 */}
-          <div className="bg-gray-900 p-8 rounded-lg shadow-lg flex flex-col items-start text-left">
-            <span className="text-red-500 text-5xl font-bold mb-4">03</span>
-            <h3 className="text-2xl font-semibold mb-4">
+        {/* Step 3 - Customize the chatbot */}
+        <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex-1">
+            <h3 className="text-2xl md:text-5xl font-semibold text-gray-900 mb-4">
               Customize the chatbot
             </h3>
-            <p className="text-gray-400 mb-6">
-              Increase earnings, gain exposure, and track sales with Combat Tix.
-              Connect with fans and promote fights easily.
+            <p className="text-gray-600 mb-6 text-2xl">
+              Make the chatbot your own. Tailor its responses, look, and
+              behavior to match your brand and meet your customer needs.
             </p>
-            <ul className="list-disc list-inside text-gray-400 space-y-2">
-              <li>Promote your events and grow your fanbase.</li>
-              <li>Track sales and earnings in real-time.</li>
-              <li>Maximize your earnings per fight.</li>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Personalize chat flow and design
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Add FAQs, greetings, and scripts
+              </li>
+              <li className="flex items-center gap-1 text-gray-700">
+                <BsPatchCheck className="text-primaryColor" />
+                Advanced training with premium plans
+              </li>
             </ul>
+          </div>
+          <div className="flex-1">
+            <div className="bg-white rounded-lg  p-6">
+              <img
+                src={workImg3}
+                alt="Chatbot customization interface"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -65,3 +133,4 @@ const WorkSection = () => {
 };
 
 export default WorkSection;
+

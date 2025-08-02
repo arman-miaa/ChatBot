@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="bg-black min-h-screen flex items-center justify-center py-16"
+      className="bg-black overflow-hidden min-h-screen flex items-center justify-center py-16"
     >
       <div className="text-center text-white px-4">
         <span className="inline-block bg-red-300 text-primaryColor text-xs font-semibold px-3 py-1 rounded-full mb-4">
