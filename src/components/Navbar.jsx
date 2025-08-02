@@ -2,18 +2,19 @@ import logo from "../assets/logo.png"
 
 const Navbar = () => {
 
-    const links = <>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">How To Work</a></li>
-    <li><a href="#">Features</a></li>
-    <li><a href="#">Pricing</a></li>
-    <li><a href="#">FAQ</a></li>
-    
-    </>
+const links = <>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#howto">How To Work</a></li>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#testimonials">Testimonials</a></li>
+  <li><a href="#pricing">Pricing</a></li>
+  <li><a href="#faq">FAQ</a></li>
+</>
+
 
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className="bg-black text-white sticky top-0 right-0 z-50">
+      <div className="navbar  container mx-auto shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,12 +44,12 @@ const Navbar = () => {
           <img src={logo} alt="" className="object-cover w-8 h-8" />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {links}
-          </ul>
+          <ul className="menu menu-horizontal px-1 text-[#D9D9D9]">{links}</ul>
         </div>
         <div className="navbar-end">
-          <button className="bg-primaryColor cursor-pointer text-white p-1 rounded-lg ">Sign Up</button>
+          <button className="bg-primaryColor cursor-pointer text-white p-1 rounded-lg ">
+            Sign Up
+          </button>
         </div>
       </div>
     </div>

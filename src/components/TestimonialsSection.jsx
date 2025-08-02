@@ -8,7 +8,10 @@ const TestimonialCard = ({
   testimonial,
   additionalText,
 }) => (
-  <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-start text-left border border-gray-100">
+  <div
+    id="testimonials"
+    className="bg-white p-6 rounded-lg shadow-md flex flex-col items-start text-left border border-gray-100"
+  >
     <div className="flex items-center mb-4">
       {/* Avatar Placeholder - replace with actual image */}
       {avatar ? (

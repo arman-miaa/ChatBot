@@ -1,6 +1,6 @@
 const WorkSection = () => {
   return (
-    <div className="py-16  text-white">
+    <div id="howto" className="py-16  text-white">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">How it works</h2>
         <p className="text-lg max-w-3xl mx-auto mb-12">

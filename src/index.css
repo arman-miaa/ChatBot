@@ -6,7 +6,12 @@
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 120rem;
   --color-primaryColor: #E54248;
-  --color-secondaryColor: #1fdd1f;
+  --color-secondaryColor: #D9D9D9;
   --color-accentColor: #404040;
 
+}
+
+
+html {
+  scroll-behavior: smooth;
 }

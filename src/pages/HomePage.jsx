@@ -11,7 +11,7 @@ import WorkSection from "../components/WorkSection"
 
 const HomePage = () => {
   return (
-      <div className="container mx-auto">
+      <div className="">
           <Navbar />
           <Banner />
           <WorkSection />

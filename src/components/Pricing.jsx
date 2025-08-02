@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="bg-black py-16 text-white min-h-screen flex flex-col items-center justify-center">
+    <div id="pricing" className="bg-black py-16 text-white min-h-screen flex flex-col items-center justify-center">
       <h2 className="text-4xl font-bold mb-10">Pricing</h2>
 
       {/* Billing Toggle */}
