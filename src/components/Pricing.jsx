@@ -26,29 +26,30 @@ const Pricing = () => {
   const currentPricing = isYearly ? pricingData.yearly : pricingData.monthly;
 
   return (
-    <div id="pricing" className="bg-black text-white py-16 px-4">
+    <div id="pricing" className="bg-black text-white py-8 md:py-16 px-4">
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-8">Pricing</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold md:font-bold mb-4 md:mb-8">
+            Pricing
+          </h2>
 
           {/* Toggle Buttons */}
-          <div className="flex justify-center items-center   w-fit mx-auto ">
-            <div className="relative bg-gray-800 rounded-full p-1 flex">
-              {/* Background slider */}
+          <div className="flex justify-center items-center w-fit mx-auto">
+            {/* Outer Border */}
+            <div className="relative rounded-xl p-1 border border-[#d63e3e7b] bg-transparent flex gap-1">
+              {/* Background Slider */}
               <div
-                className={`absolute top-1 bottom-1 bg-primaryColor rounded-lg transition-all duration-300 ease-in-out ${
-                  isYearly ? "left-1/2 right-1" : "left-1 right-1/2 "
+                className={`absolute top-1 bottom-1 rounded-lg bg-primaryColor transition-all duration-300 ease-in-out ${
+                  isYearly ? "left-1/2 right-1" : "left-1 right-1/2"
                 }`}
               />
 
               {/* Monthly Button */}
               <button
                 onClick={() => setIsYearly(false)}
-                className={`relative z-10 px-6 py-2 rounded-lg cursor-pointer text-sm font-medium transition-colors duration-300 ${
-                  !isYearly
-                    ? "text-white"
-                    : "text-gray-300 border border-primaryColor px-10 transition-all duration-500 ease-in-out hover:text-white"
+                className={`relative z-10 px-6 py-2 cursor-pointer rounded-lg text-sm font-medium transition-all duration-300 ${
+                  !isYearly ? "text-white" : "text-gray-300 hover:text-white"
                 }`}
               >
                 Billed monthly
@@ -57,10 +58,8 @@ const Pricing = () => {
               {/* Yearly Button */}
               <button
                 onClick={() => setIsYearly(true)}
-                className={`relative z-10 px-6 py-2 cursor-pointer rounded-lg text-sm font-medium transition-colors duration-300 ${
-                  isYearly
-                    ? "text-white"
-                    : "text-gray-300 border border-primaryColor transition-all duration-500 ease-in-out hover:text-white"
+                className={`relative z-10 px-6 py-2 cursor-pointer rounded-lg text-sm font-medium transition-all duration-300 ${
+                  isYearly ? "text-white" : "text-gray-300 hover:text-white"
                 }`}
               >
                 Billed yearly -20%
@@ -72,8 +71,8 @@ const Pricing = () => {
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-2 gap-8 container mx-auto">
           {/* Free Plan */}
-          <div className="bg-gray-900 rounded-lg p-8 transition-all duration-300">
-            <div className="mb-6 flex items-center  justify-between">
+          <div className=" rounded-lg p-8 transition-all duration-300">
+            <div className="mb-6 md:flex items-center  justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-2">Free plan</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -81,10 +80,11 @@ const Pricing = () => {
                 </p>
               </div>
               <div className="flex items-baseline">
-                <span className="text-4xl font-bold transition-all duration-300">
-                  ${currentPricing.free.price}
+                <span className="text-5xl font-bold transition-all duration-300">
+                  <span className="text-4xl">$</span>
+                  {currentPricing.free.price}
                 </span>
-                <span className="text-gray-400 ml-2 transition-all duration-300">
+                <span className="text-gray-400 ml-1 md:ml-2 transition-all duration-300">
                   {currentPricing.free.period}
                 </span>
               </div>
@@ -148,8 +148,8 @@ const Pricing = () => {
           </div>
 
           {/* Premium Plan */}
-          <div className="bg-gray-900 rounded-lg p-8 transition-all duration-300">
-            <div className="mb-6 flex items-center justify-between">
+          <div className=" rounded-lg p-8 transition-all duration-300">
+            <div className="mb-6 md:flex items-center justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-2">Premium plan</h3>
                 <p className="text-gray-400 text-sm mb-4">
@@ -157,10 +157,11 @@ const Pricing = () => {
                 </p>
               </div>
               <div className="flex items-baseline">
-                <span className="text-4xl font-bold transition-all duration-300">
-                  ${currentPricing.premium.price}
+                <span className="text-5xl font-bold transition-all duration-300">
+                  <span className="text-4xl">$</span>
+                  {currentPricing.premium.price}
                 </span>
-                <span className="text-gray-400 ml-2 transition-all duration-300">
+                <span className="text-gray-400 ml-1 md:ml-2 transition-all duration-300">
                   {currentPricing.premium.period}
                 </span>
                 {isYearly && currentPricing.premium.originalPrice && (

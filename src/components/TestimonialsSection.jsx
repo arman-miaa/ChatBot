@@ -26,7 +26,7 @@ const Testimonials = () => {
   );
 
   return (
-    <div id="testimonials" className="py-16 px-4 overflow-hidden bg-gray-50">
+    <div id="testimonials" className=" py-10 md:py-16 px-4 overflow-hidden bg-gray-50">
       <style jsx>{`
         @keyframes scrollLeft {
           0% {
@@ -39,9 +39,9 @@ const Testimonials = () => {
       `}</style>
 
       {/* Header */}
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900 mb-4">Testimonials</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+      <div className="text-center mb-8 md:mb-12">
+        <h2 className="text-2xl font-semibold md:text-4xl md:font-bold text-gray-900 mb-4">Testimonials</h2>
+        <p className="text-sm md:text-lg text-gray-600 max-w-2xl mx-auto">
           Some of the most asked questions from the world
         </p>
       </div>

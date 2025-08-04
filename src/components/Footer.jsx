@@ -1,19 +1,19 @@
-import { MessageCircle } from "lucide-react";
+
 import logoImg from "../assets/footerLogo.png"
 import footerIcon from "../assets/footerIcon.png";
-import { PiLetterCircleP, PiLetterCirclePFill, PiLetterCirclePThin } from "react-icons/pi";
+import { PiLetterCirclePFill } from "react-icons/pi";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white relative overflow-hidden">
       {/* Call to Action Section */}
-      <div className="container mx-auto px-4 text-center py-20">
+      <div className="container mx-auto px-4 text-center py-10 md:py-20">
         {/* Chat Bot Icon */}
         <div className="w-16 h-16 rounded-full  mx-auto mb-8 flex items-center justify-center">
-          <img src={logoImg} alt="" />
+          <img src={logoImg} alt="logo" />
         </div>
 
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 max-w-xl mx-auto leading-tight">
+        <h2 className="text-2xl md:text-4xl font-semibold md:font-bold mb-8 md:max-w-xl mx-auto leading-tight">
           Get Started Today' or 'Try for Free' with an easy sign-up process
         </h2>
 
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Content */}
-      <div className="bg-gray-900 relative">
+      <div className="relative">
         {/* Corner Background Shadows */}
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32">
@@ -34,23 +34,23 @@ const Footer = () => {
           <div className="sm:hidden mx-auto w-100 h-80 rounded-full bg-red-600/20 blur-2xl"></div>
         </div>
 
-        <div className="container mx-auto px-20 py-16 pb-20 relative z-10">
+        <div className="container mx-auto px-4 md:px-20  md:py-16 pb-6 md:pb-20 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Side - Brand Info Section */}
             <div>
-              <div className="flex items-center mb-4 gap-2">
+              <div className="flex items-center mb-4 gap-2 ">
                 <img src={footerIcon} alt="" />
                 <h3 className="text-xl font-bold">Polymer</h3>
               </div>
 
-              <p className="text-[#727272] text-sm mb-6 leading-relaxed w-2/8">
+              <p className="text-[#727272] text-sm mb-6 leading-relaxed w-5/7  ">
                 Building coordination tools for organizations of all shapes and
                 sizes. Hiring is just the start.
               </p>
 
               {/* Product Hunt Badge */}
               <div className="mb-6">
-                <div className="bg-[#352d2dbf] rounded-lg p-3 inline-flex items-center space-x-1 ">
+                <div className="bg-[#352d2d64] rounded-lg p-3 inline-flex items-center space-x-1 ">
                   <div className="  rounded flex items-center justify-center">
                     <PiLetterCirclePFill className=" text-[40px]  rounded-full" />
                   </div>
@@ -82,8 +82,8 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 ">
               {/* Company Links */}
               <div>
-                <h4 className="text-xl font-semibold mb-6">Company</h4>
-                <ul className="space-y-4">
+                <h4 className="text-xl font-semibold mb-4 md:mb-6">Company</h4>
+                <ul className=" space-y-3 md:space-y-4">
                   <li>
                     <a
                       href="#"
@@ -137,8 +137,10 @@ const Footer = () => {
 
               {/* Links Column */}
               <div>
-                <h4 className="text-lg font-semibold mb-6">Links</h4>
-                <ul className="space-y-4">
+                <h4 className="text-lg font-semibold mt-4 md:mt-0 mb-4 md:mb-6">
+                  Links
+                </h4>
+                <ul className=" space-y-3 md:space-y-4">
                   <li>
                     <a
                       href="#"
@@ -184,8 +186,10 @@ const Footer = () => {
 
               {/* Resources Links */}
               <div>
-                <h4 className="text-lg font-semibold mb-6">Resources</h4>
-                <ul className="space-y-4">
+                <h4 className="text-lg font-semibold mt-4 md:mt-0 mb-4 md:mb-6">
+                  Resources
+                </h4>
+                <ul className=" space-y-3 md:space-y-4">
                   <li>
                     <a
                       href="#"
