@@ -6,7 +6,7 @@ import workImg3 from "../assets/workImg3.png"
 const WorkSection = () => {
   return (
     <div id="howto" className="py-10 md:py-16 px-4 ">
-      <div className="max-w-6xl mx-auto">
+      <div className="container mx-auto md:px-36">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mb-3 md:mb-4">

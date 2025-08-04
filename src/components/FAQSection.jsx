@@ -1,4 +1,4 @@
-// components/FAQSection.tsx
+
 const faqData = [
   {
     question: "How easy is it to set up the chatbot on my website?",
@@ -29,7 +29,7 @@ const faqData = [
 
 const FAQSection = () => {
   return (
-    <section id="faq" className="py-12 px-4 max-w-3xl mx-auto">
+    <section id="faq" className="py-12 px-4 max-w-5xl mx-auto">
       <h2 className="text-2xl md:text-4xl font-semibold text-center mb-2">FAQ</h2>
       <p className="text-center text-sm md:text-[16px] text-gray-500 mb-8">
         Some of the most asked questions from the world

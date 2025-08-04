@@ -1,4 +1,4 @@
-import { Shield, MessageSquare, Lock, Zap, Bot } from "lucide-react";
+
 
 import frameImg2 from "../assets/Frame1.png";
 import frameImg4 from "../assets/Frame2.png";
@@ -11,7 +11,7 @@ import ProgressGroup from "../shared/ProgressGroup";
 const Features = () => {
   return (
     <div id="features" className="bg-black py-12 md:py-16 text-white">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto md:px-20 text-center">
         <h2 className="text-2xl md:text-4xl font-bold mb-4">
           Feature & Benefits
         </h2>
@@ -23,7 +23,7 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1: Free Trained Bot */}
-          <div className="border border-gray-800 p-6 pt-24 md:pt-6 rounded-lg shadow-lg flex flex-col justify-between  md:min-h-[420px] text-left">
+          <div className="border border-gray-800 p-6 pt-24 md:pt-6 rounded-lg shadow-lg flex flex-col justify-between   text-left">
             <div>
               <ProgressGroup icon={logo} />
             </div>
@@ -59,7 +59,7 @@ const Features = () => {
           </div>
 
           {/* Card 3: Automatic AI Response */}
-          <div className="border border-gray-800 p-2 md:p-6 pt-24 md:pt-6 rounded-lg shadow-lg flex flex-col justify-between  md:min-h-[420px] text-left">
+          <div className="border border-gray-800 p-2 md:p-6 pt-24 md:pt-6 rounded-lg shadow-lg flex flex-col justify-between   text-left">
             <div className="w-full bg-black text-white p-4 rounded-lg space-y-3">
               {/* AI Message */}
               <div className="flex items-start space-x-2 ">
