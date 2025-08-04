@@ -1,0 +1,130 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Guillermo Rauch",
+      "title": "CEO, Vercel",
+      "image": "/avatar1.png",
+      "testimonial": "The Braintify team absolutely nailed combining docs search and AI Q&A in a delightful experience."
+    },
+    {
+      "id": 2,
+      "name": "Vlad Matsiiako",
+      "title": "Co-founder, Infisical",
+      "image": "/avatar7.png",
+      "testimonial": "Mintlify is absolutely amazing! Their team has been such a pleasure to work with, and just look at our docs - they look gorgeous! I definitely think everyone should try Mintlify out!"
+    },
+    {
+      "id": 3,
+      "name": "Maayan Salom",
+      "title": "Co-founder, Elementary",
+      "image": "/avatar13.png",
+      "testimonial": "Mintlify is amazing for us! Even as a small team we struggled to keep up with dev and update the docs on changes. Now the docs are managed as code and are part of the dev process and PR. As an open source project - moving the docs to the repo (with zero effort) also enabled our community to help us maintain and fix problems as contributors. Our devs and our users love it."
+    },
+    {
+      "id": 4,
+      "name": "Zeno Rocha",
+      "title": "CEO, Resend",
+      "image": "/avatar2.png",
+      "testimonial": "This is a must-have if you're building any kind of developer tools. We used other options in the past, which feels outdated in terms of look-n-feel when compared to Mintlify. The team helped us set up two different websites and even migrated all the content for us. I can't recommend it enough."
+    },
+    {
+      "id": 5,
+      "name": "Adam Carrigan",
+      "title": "Co-founder, MindsDB",
+      "image": "/avatar8.png",
+      "testimonial": "My team loves Mintlify! Great product and a super supportive team."
+    },
+    {
+      "id": 6,
+      "name": "Ashley Mulligan",
+      "title": "Head of Product Engineering,Flatfile",
+      "image": "/avatar14.png",
+      "testimonial": "Mintlify was the only option that checked all the boxes. To get the look, feel, and features we wanted for our documentation, it had to be homegrown or Mintlify."
+    },
+    {
+      "id": 7,
+      "name": "Chun Jiang",
+      "title": "CEO, Monterey AI",
+      "image": "/avatar3.png",
+      "testimonial": "Absolutely the best. It is freaking easy to set up, and the team has been great to work with!"
+    },
+    {
+      "id": 8,
+      "name": "Charly Poly",
+      "title": "CEO, Defer",
+      "image": "/avatar9.png",
+      "testimonial": "Why spend a week coding your own documentation (and optimizing it for SEO, design, etc.) while Mintlify brings you the best in class documentation in a few minutes? Worked on documentation for years, in unicorns and open source and I'm sold!"
+    },
+    {
+      "id": 9,
+      "name": "Mark Bao",
+      "title": "Co-founder, Goody",
+      "image": "/avatar15.png",
+      "testimonial": "The way Mintlify's docs were displayed just felt really user-friendly for us, and more importantly, for our developer customers. I felt like I had finally found a tool that could give us the Stripe-level documentation we wanted."
+    },
+    {
+      "id": 10,
+      "name": "Guillermo Rauch",
+      "title": "CEO, Vercel",
+      "image": "/avatar1.png",
+      "testimonial": "The Braintify team absolutely nailed combining docs search and AI Q&A in a delightful experience."
+    },
+    {
+      "id": 11,
+      "name": "Vlad Matsiiako",
+      "title": "Co-founder, Infisical",
+      "image": "/avatar7.png",
+      "testimonial": "Mintlify is absolutely amazing! Their team has been such a pleasure to work with, and just look at our docs - they look gorgeous! I definitely think everyone should try Mintlify out!"
+    },
+    {
+      "id": 12,
+      "name": "Maayan Salom",
+      "title": "Co-founder, Elementary",
+      "image": "/avatar13.png",
+      "testimonial": "Mintlify is amazing for us! Even as a small team we struggled to keep up with dev and update the docs on changes. Now the docs are managed as code and are part of the dev process and PR. As an open source project - moving the docs to the repo (with zero effort) also enabled our community to help us maintain and fix problems as contributors. Our devs and our users love it."
+    },
+    {
+      "id": 13,
+      "name": "Zeno Rocha",
+      "title": "CEO, Resend",
+      "image": "/avatar2.png",
+      "testimonial": "This is a must-have if you're building any kind of developer tools. We used other options in the past, which feels outdated in terms of look-n-feel when compared to Mintlify. The team helped us set up two different websites and even migrated all the content for us. I can't recommend it enough."
+    },
+    {
+      "id": 14,
+      "name": "Adam Carrigan",
+      "title": "Co-founder, MindsDB",
+      "image": "/avatar8.png",
+      "testimonial": "My team loves Mintlify! Great product and a super supportive team."
+    },
+    {
+      "id": 15,
+      "name": "Ashley Mulligan",
+      "title": "Head of Product Engineering,Flatfile",
+      "image": "/avatar14.png",
+      "testimonial": "Mintlify was the only option that checked all the boxes. To get the look, feel, and features we wanted for our documentation, it had to be homegrown or Mintlify."
+    },
+    {
+      "id": 16,
+      "name": "Zeno Rocha",
+      "title": "CEO, Resend",
+      "image": "/avatar2.png",
+      "testimonial": "This is a must-have if you're building any kind of developer tools. We used other options in the past, which feels outdated in terms of look-n-feel when compared to Mintlify. The team helped us set up two different websites and even migrated all the content for us. I can't recommend it enough."
+    },
+    {
+      "id": 17,
+      "name": "Adam Carrigan",
+      "title": "Co-founder, MindsDB",
+      "image": "/avatar8.png",
+      "testimonial": "My team loves Mintlify! Great product and a super supportive team."
+    },
+    {
+      "id": 18,
+      "name": "Ashley Mulligan",
+      "title": "Head of Product Engineering,Flatfile",
+      "image": "/avatar14.png",
+      "testimonial": "Mintlify was the only option that checked all the boxes. To get the look, feel, and features we wanted for our documentation, it had to be homegrown or Mintlify."
+    }
+  ]
+}
