@@ -2,6 +2,10 @@
 @plugin "daisyui";
 
 
+body{
+   font-family: "Open Sans", sans-serif;
+}
+
 @theme {
   --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 120rem;
@@ -17,12 +21,12 @@ html {
 }
 
 /* Custom progress bar with #E54248 */
-/* গাঢ় লাল: #E54248 */
+
 .progress-red::-webkit-progress-value {
   background-color: #e54247d2;
 }
 
-/* জাপসা লাল: #F48084 */
+/*  #F48084 */
 .progress-soft-red::-webkit-progress-value {
   background-color: #F48084;
 }

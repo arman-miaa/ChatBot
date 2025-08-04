@@ -30,7 +30,7 @@ const faqData = [
 const FAQSection = () => {
   return (
     <section id="faq" className="py-12 px-4 max-w-3xl mx-auto">
-      <h2 className="text-3xl font-semibold text-center mb-2">FAQ</h2>
+      <h2 className="text-4xl font-semibold text-center mb-2">FAQ</h2>
       <p className="text-center text-gray-500 mb-8">
         Some of the most asked questions from the world
       </p>
@@ -38,10 +38,10 @@ const FAQSection = () => {
         {faqData.map((item, idx) => (
           <div
             key={idx}
-            className="border border-gray-200 p-4 rounded-md bg-white shadow-sm"
+            className="border border-gray-100 p-4 rounded-md bg-white "
           >
-            <h3 className="font-semibold mb-2 text-black">{item.question}</h3>
-            <p className="text-gray-600 text-sm">{item.answer}</p>
+            <h3 className="font-semibold text-xl mb-2 text-black">{item.question}</h3>
+            <p className="text-gray-600">{item.answer}</p>
           </div>
         ))}
       </div>

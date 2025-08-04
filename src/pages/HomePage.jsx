@@ -16,8 +16,8 @@ const HomePage = () => {
           <Banner />
           <WorkSection />
           <Features />
-          <Pricing />
           <FAQSection />
+          <Pricing />
           <TestimonialsSection/>
           
 
