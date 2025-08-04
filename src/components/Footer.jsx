@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="sm:hidden mx-auto w-100 h-80 rounded-full bg-red-600/20 blur-2xl"></div>
         </div>
 
-        <div className="container mx-auto px-4 md:px-0   md:py-16 pb-6 md:pb-20 relative z-10">
+        <div className="container mx-auto px-4 md:px-20  md:py-16 pb-6 md:pb-20 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Side - Brand Info Section */}
             <div>
