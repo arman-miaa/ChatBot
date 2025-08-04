@@ -15,3 +15,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Custom progress bar with #E54248 */
+/* গাঢ় লাল: #E54248 */
+.progress-red::-webkit-progress-value {
+  background-color: #e54247d2;
+}
+
+/* জাপসা লাল: #F48084 */
+.progress-soft-red::-webkit-progress-value {
+  background-color: #F48084;
+}
+
+
