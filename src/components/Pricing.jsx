@@ -27,7 +27,7 @@ const Pricing = () => {
 
   return (
     <div id="pricing" className="bg-black text-white py-8 md:py-16 px-4">
-      <div className="container mx-auto">
+      <div className="container mx-auto md:px-12">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-4xl font-semibold md:font-bold mb-4 md:mb-8">
