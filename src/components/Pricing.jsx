@@ -26,7 +26,7 @@ const Pricing = () => {
   const currentPricing = isYearly ? pricingData.yearly : pricingData.monthly;
 
   return (
-    <div className="bg-black text-white py-16 px-4">
+    <div id="pricing" className="bg-black text-white py-16 px-4">
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

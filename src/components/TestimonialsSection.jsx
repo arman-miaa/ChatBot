@@ -26,7 +26,7 @@ const Testimonials = () => {
   );
 
   return (
-    <div className="py-16 px-4 overflow-hidden bg-gray-50">
+    <div id="testimonials" className="py-16 px-4 overflow-hidden bg-gray-50">
       <style jsx>{`
         @keyframes scrollLeft {
           0% {
