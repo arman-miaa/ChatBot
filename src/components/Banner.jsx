@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="bg-black overflow-hidden min-h-screen flex items-center justify-center py-4 md:py-16"
+      className=" bg-black overflow-hidden min-h-screen flex items-center justify-center py-4 md:py-16"
     >
       <div className="text-center text-white px-4">
         <span className="inline-block bg-red-300 text-primaryColor text-[9px] md:text-xs md:font-semibold px-3 py-1 rounded-full mb-4">
@@ -18,8 +18,9 @@ const Banner = () => {
         <h1 className=" text-3xl md:text-6xl font-bold md:leading-15 mb-3 md:mb-6">
           Automate <span className="text-red-500">Customer</span>
           <br />
-          <span className="text-red-500">Interactions</span> with Your  <br className="hidden md:flex" />
-           AI Chatbot
+          <span className="text-red-500">Interactions</span> with Your{" "}
+          <br className="hidden md:flex" />
+          AI Chatbot
         </h1>
         <p className="hidden md:flex  justify-center text-sm md:text-lg mb-8 max-w-2xl mx-auto text-secondaryColor">
           Pre-trained and customisable chatbots for smarter conversations.
@@ -28,9 +29,8 @@ const Banner = () => {
         </p>
         {/* for small device */}
         <p className=" md:hidden text-sm md:text-lg mb-6 md:mb-8 max-w-2xl mx-auto text-secondaryColor">
-          Pre-trained and customisable chatbots for smarter conversations.
-          
-          'Try for Free' and 'See Demo'
+          Pre-trained and customisable chatbots for smarter conversations. 'Try
+          for Free' and 'See Demo'
         </p>
         <div className="flex flex-col  relative  justify-center items-center gap-3 md:gap-4">
           {/* img */}

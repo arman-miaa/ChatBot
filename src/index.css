@@ -16,8 +16,10 @@ body{
 }
 
 
+
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 65px;
 }
 
 /* Custom progress bar with #E54248 */
@@ -29,6 +31,19 @@ html {
 /*  #F48084 */
 .progress-soft-red::-webkit-progress-value {
   background-color: #F48084;
+}
+
+
+.navbar a:hover {
+  color: #fff;
+ 
+ 
+}
+
+.navbar a.active {
+  color: #fff;
+  text-decoration: underline;
+   text-underline-offset: 4px;
 }
 
 

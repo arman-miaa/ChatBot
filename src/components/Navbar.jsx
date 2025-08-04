@@ -3,43 +3,88 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+   const [activeLink, setActiveLink] = useState("#home");
 
   const handleClose = () => setIsOpen(false);
 
-  const links = (
-    <>
-      <li>
-        <a href="#home" onClick={handleClose}>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#howto" onClick={handleClose}>
-          How To Work
-        </a>
-      </li>
-      <li>
-        <a href="#features" onClick={handleClose}>
-          Features
-        </a>
-      </li>
-      <li>
-        <a href="#faq" onClick={handleClose}>
-          FAQ
-        </a>
-      </li>
-      <li>
-        <a href="#pricing" onClick={handleClose}>
-          Pricing
-        </a>
-      </li>
-      <li>
-        <a href="#testimonials" onClick={handleClose}>
-          Testimonials
-        </a>
-      </li>
-    </>
-  );
+
+const links = (
+  <>
+    <li>
+      <a
+        href="#home"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#home");
+        }}
+        className={activeLink === "#home" ? "active" : ""}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="#howto"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#howto");
+        }}
+        className={activeLink === "#howto" ? "active" : ""}
+      >
+        How To Work
+      </a>
+    </li>
+    <li>
+      <a
+        href="#features"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#features");
+        }}
+        className={activeLink === "#features" ? "active" : ""}
+      >
+        Features
+      </a>
+    </li>
+    <li>
+      <a
+        href="#faq"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#faq");
+        }}
+        className={activeLink === "#faq" ? "active" : ""}
+      >
+        FAQ
+      </a>
+    </li>
+    <li>
+      <a
+        href="#pricing"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#pricing");
+        }}
+        className={activeLink === "#pricing" ? "active" : ""}
+      >
+        Pricing
+      </a>
+    </li>
+    <li>
+      <a
+        href="#testimonials"
+        onClick={() => {
+          handleClose();
+          setActiveLink("#testimonials");
+        }}
+        className={activeLink === "#testimonials" ? "active" : ""}
+      >
+        Testimonials
+      </a>
+    </li>
+  </>
+);
+
 
   return (
     <div className="bg-black text-white sticky top-0 right-0 z-50">
