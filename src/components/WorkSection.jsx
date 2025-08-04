@@ -57,7 +57,7 @@ const WorkSection = () => {
         </div>
 
         {/* Step 2 - Choose your plan */}
-        <div className="flex flex-col lg:flex-row-reverse items-center  md:gap-12 md:mb-20">
+        <div className="flex flex-col lg:flex-row-reverse items-center  md:gap-36 md:mb-20">
           <div className="flex-1">
             <h3 className="text-2xl md:text-5xl font-semibold text-gray-900 mb-4">
               Choose your plan
@@ -82,7 +82,7 @@ const WorkSection = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <div className="bg-gradient-to-br from-coral-400 to-coral-500 rounded-lg md:p-8 text-white">
+            <div className="bg-gradient-to-br from-coral-400 to-coral-500 rounded-lg md:py-8 text-white">
               <img
                 src={workImg2}
                 alt="Pricing plans interface"
