@@ -46,4 +46,30 @@ html {
    text-underline-offset: 4px;
 }
 
+@keyframes smoothLeftRight {
+  0% {
+    transform: translateX(0);  
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(-150%); 
+    opacity: 0;
+  }
+  41% {
+    transform: translateX(50%); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);     
+    opacity: 1;
+  }
+}
+
+.animate-leftRight {
+  animation: smoothLeftRight 4s ease-in-out infinite;
+}
+
+
+
+
 

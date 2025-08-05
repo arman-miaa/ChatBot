@@ -38,7 +38,7 @@ const Banner = () => {
           <img
             src={unionImg}
             alt=""
-            className="absolute right-8 top-4 md:right-18 md:top-2 w-[49px] md:w-[130px] object-cover animate-bounce"
+            className="absolute right-8 top-4 md:right-18 md:top-2 w-[49px] md:w-[130px] object-cover animate-leftRight"
           />
 
           <button className="bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-3 md:px-12 cursor-pointer  rounded-lg flex items-center justify-center">
@@ -78,7 +78,7 @@ const Banner = () => {
               className="relative w-[290px] mt-6 md:mt-0 md:w-[450px] md:h-[960px] object-contain rounded-[60px]"
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true, amount: 0.5 }} 
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             />
           </div>
