@@ -5,6 +5,8 @@ import logo from "../assets/logo.png";
 import lockImg from "../assets/lockImg.png";
 import ProgressGroup from "../shared/ProgressGroup";
 import userImg from "/avatar1.png"
+import { shakeOnHover } from "../animations/cardAnimations";
+import {motion} from "framer-motion"
 
 const Features = () => {
   return (
@@ -21,7 +23,10 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1: Free Trained Bot */}
-          <div className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div>
               <ProgressGroup icon={logo} />
             </div>
@@ -34,10 +39,13 @@ const Features = () => {
                 day one.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 2: Quick Setup */}
-          <div className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div className="w-full h-40 flex items-center justify-center">
               <img
                 src={frameImg2}
@@ -45,18 +53,21 @@ const Features = () => {
                 className="w-30 h-30 object-contain"
               />
             </div>
-            <div className="mt-auto pt-16 md:pt-4">
+            <div className="mt-auto pt-16 md:pt-4 ">
               <h3 className="text-xl font-semibold mb-4 md:mb-2">
                 Quick Setup
               </h3>
-              <p className="text-gray-400 text-sm w-3/4">
+              <p className="text-gray-400 text-sm md:mb-4 lg:mb-0 w-3/4">
                 Launch your bot instantly with a simple, no-code setup process.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 3: Automatic AI Response */}
-          <div className="border border-gray-800 p-2 md:p-6 pt-24 md:pt-1 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-2 md:p-6 pt-24 md:pt-1 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div className="w-full bg-black text-white p-4 rounded-lg space-y-3">
               {/* AI Message */}
               <div className="flex items-start space-x-2">
@@ -117,10 +128,13 @@ const Features = () => {
                 real-time, 24/7.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 4: Advance Data Analytics */}
-          <div className="border border-gray-800 p-6 pt-20 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-6 pt-20 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div className="w-full flex items-center justify-center overflow-hidden">
               <img src={frameImg3} alt="" className="w-full h-46 object-fit" />
             </div>
@@ -133,10 +147,13 @@ const Features = () => {
                 reports.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 5: Integration */}
-          <div className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div className="w-full flex items-center justify-center">
               <img
                 src={frameImg4}
@@ -153,10 +170,13 @@ const Features = () => {
                 data protected.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 6: Security & Privacy */}
-          <div className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left">
+          <motion.div
+            {...shakeOnHover}
+            className="border border-gray-800 p-6 pt-24 md:pt-10 rounded-lg shadow-lg flex flex-col justify-between text-left"
+          >
             <div>
               <ProgressGroup icon={lockImg} />
             </div>
@@ -169,7 +189,7 @@ const Features = () => {
                 compliant.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
