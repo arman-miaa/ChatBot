@@ -258,7 +258,7 @@ const MobileChatInterface = () => {
             )}
           </div>
 
-          {/* Input Area */}
+          {/* Input Area / */}
           <div className="absolute bottom-0 left-0 right-0 bg-pink-200 p-4">
             <div className="flex items-center space-x-3 mb-2">
               <div className="flex-1 bg-white rounded-full px-4 py-3 flex items-center space-x-3">
